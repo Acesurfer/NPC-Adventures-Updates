@@ -1,0 +1,11 @@
+{
+  "Name": "Lucikiel for NPC Adventures Dialogues",
+  "Author": "Arknir27",
+  "Version": "2.0.0",
+  "Description": "Adds Lucikiel to PurrplingCat's NPC Adventures.",
+  "UniqueID": "arknir.lucikiel.npcadventuresdialogues",
+  "UpdateKeys": [ "Nexus:6307@Adventure" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}
