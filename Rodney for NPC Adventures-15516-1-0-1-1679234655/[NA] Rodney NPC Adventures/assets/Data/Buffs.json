@@ -1,0 +1,4 @@
+{
+  //Buff Format per docs is "<npcName>": "<farming>/<fishing>/<mining>/<digging>/<luck>/<foraging>/<crafting>/<maxStamina>/<magneticRadius>/<speed>/<defense>/<attack>". Crafting's supposedly 1.6, so ignore that value. Otherwise, give Mateo reasonable buffs!
+  "RodneyOBrien": "0/0/0/0/2/0/0/50/10/2/0/2" // farming 0/ fishing 0/mining 0/ digging 0/ luck 2/ foraging 0/ crafing 0/maxstamina 50/magneticradius 10/ speed 2/defense 0/attack 2
+}

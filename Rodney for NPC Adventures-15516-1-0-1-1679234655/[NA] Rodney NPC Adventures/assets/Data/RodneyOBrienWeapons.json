@@ -1,0 +1,14 @@
+{
+	//Define weapons here. Number indicates combat level of user, then sword is in quotes (name of). I believe custom weapons work, but it's not required.
+  "0": "Elliott's Pencil",
+  "1": "Elliott's Pencil",
+  "2": "Cutlass",
+  "3": "Cutlass",
+  "4": "Templar's Blade",
+  "5": "Tempered Broadsword",
+  "6": "Tempered Broadsword",
+  "7": "Dark Sword",
+  "8": "Dark Sword",
+  "9": "Lava Katana",
+  "10": "Dragontooth Cutlass"
+}

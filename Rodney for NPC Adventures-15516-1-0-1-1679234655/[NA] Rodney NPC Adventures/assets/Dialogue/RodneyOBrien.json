@@ -1,0 +1,57 @@
+ {
+//Normal Mateo Lines. I've left the dialogue as is from Juliet so you can see how it works, but essentially: 
+//Accept is if they will go with you (5+ hearts normally), reject is if not at that threshold, night is past 10pm (past midnight if spouse), dismiss is sending them away, dismissauto is their removal at 10pm/midnight, and recruited is the dialogue said directly after they become your companion. 
+//You can add _Spouse to designate lines that will be said if Mateo is the spouse.
+//Suggest is a question the NPC will pose when talking to you on occasion. I've placeholder-ed the first area so you can see how it works, then left the other two in.
+//This all works as dialogue, so expressions should be defined like dialogue is normally defined. I like to use $b to connect the dialogues, but it's not required.
+//If this is all confusing? In the same folder as this one is Ridgeside's template for this, which has zero dialogue in it. You can use that if need be, just name it Mateo.json if you want the content.json to recognize it.
+
+  "companionAccepted": "Oh you want the company of a famous writer to keep you safe? Say no more, I'll follow you!$1",
+  "companionRejected": "I appreciate the offer, but-#$b#I was going to give you a good excuse, but truth is I'm not in the mood today.$4",
+  "companionRejectedNight": "Listen @, I'm not a youngster and I need my beauty sleep.$7",
+  "companionDismiss": "Well, that was fun, I guess!$1#$b#See you around @.",
+  "companionDismissAuto": "And, that's my cue to go home! You should get some rest too, @. Don't you have a farm to run?",
+  "companionRecruited": "LET'S GO!$6#$b#Wait, where are we going?$8",  
+ 
+  "companionSuggest": "Hello there, @!#$q -1 -1#Do you want to go on an adventure?#$r -1 0 Yes#Let's do it!#$r -1 0 No#Sorry, I have to do my taxes.",
+  "companionSuggest_Yes": "Great! Lead the way, my friend. ADVENTURE!$1",
+  "companionSuggest_No": "Oh, okay. Well have fun.$4",
+  
+
+//From here on, dialogues are optional. Feel free to not put in any extra dialogues if you don't want them. You can also randomize them like speech bubbles, but I've chosen not to do that for now.
+
+//Location specific (Vanilla)
+
+  "companion_Farm": "That's a pretty... big farm you have here, @.#$b#Do you have ducks? Can I pet them? Please!$4",
+  "companion_Mine": "You know, I once asked Marlon to be my bodyguard for a little adventure in the mines.#$b#He said no.$4",
+  "companion_Town_Night": "Be careful wandering the streets of Pelican Town at night, @. You may meet a wild Shane!#$b#Or worse, a wild Pam!$8",
+  "companion_Town_Rainy": "You don't happen to have an umbrella by any chance?$4",
+  "companion_SkullCave": "This place looks dangerous.$8#$b#Don't take it the wrong way, but I may abandon you at any point starting... right now.$1",
+  "companion_ArchaeologyHouse": "YES. The best place in Pelican Town!$1#$b#Time to party!$6#$b#And by that, I mean find a good book.",
+
+
+
+//Location Specific (Other mod compat). I've left in my "other mod compat" areas as examples. I don't know if Speech Bubbles actually work for this, but I know for a fact that dialogues do.
+
+"companion_Custom_EastScarpeInn": "This place is so peaceful. I often come here for breakfast and it's one of my favourite place to hang out when it's raining.",
+"companion_Custom_ESVetHouse": "Jacob has the most obnoxious parrot ever here. I don't like him. He's mean.$4",
+"companion_Custom_CrimsonBadlands": "Oh, this place reminds me of the Katelmur planet in The Stretch, volume 4: Arcadian Fire. The heroes got stuck in an hellish landscape like this one!$1#$b#Half of them died, though.$7",
+"companion_Custom_ESDeepMountains": "Do you come here often, @? I like to come here on Sundays. Nice trek, lots of fresh air and nature. And those weird goats.",
+"companion_Custom_Ridgeside_RidgesideVillage": "I don't visit Ridgeside has much as I should.$1#$b#I also can't believe this village is not independant from Pelican Town. I think it should.#$b#That would annoy Lewis so much!$1",
+"companion_Custom_Ridgeside_RidgeForest": "This place seems nice and quiet!$1#$b#IS THAT A GIANT SNAKE PERSON?$8",
+"companion_Custom_Ridgeside_SummitFarm": "So. You have a huge farm in the Valley. AND a huge farm on top of a mountain and yet you keep running around town checking trashcans?",
+"companion_Custom_ESMateoHome": "This place reminds me of the camping trips we used to go on with my college buddies in the Fern Islands.",
+"companion_Custom_ESCoastalGuild": "Mateo really did adjust well to the life in the Valley, right? Guildmaster, parent of a dinosaur... That's the life.",
+"companion_Custom_ESDeepDark": "Do you think that's a load-bearing wall? We could expand this area and make a nice little spa, you know?",
+"companion_Custom_ESSeaCave": "This place is weird. Can we leave?$2",
+"companion_Custom_ESEDHouse": "While we're here, we should make sure the boys have something to eat in their fridge. I don't trust them with cooking. Or feeding themselves for that matter.",
+"companion_Custom_ARVHouse": "Can you ask Mia if she has come cupcakes for us?$4",
+"companion_Custom_ESHouse1": "Oh! Tell Aideen that tea is just leaf juice and see what she has to say!$1",
+"companion_Custom_Yri_House": "Have I ever told you that Yri's is the architect who renovated my silo?",
+"companion_Custom_ExteriorMuseum": "I don't know about you, but I'm craving sashimi right now.",
+"companion_Custom_FishMuseum": "This place is very beautiful. But don't you think all those fish should be free?$4#$b#Free to be caught by a skilled angler and turned into delicious maki rolls!$1",
+"companion_Custom_EnchantedGrove": "What is this place? Your herbal garden?#$b#You don't grow cilantro, right?$8",
+"companion_Custom_Highlands": "I have no idea where we are.$4#$b#Are you gonna leave me for dead in this place?$8",
+"companion_Custom_IridiumQuarry": "Ooooh, shiny rocks! Gimme!$1",
+"companion_Custom_RodneysHouse": "Listen, I know my house is nice, but this is not really an adventure.$7",
+}

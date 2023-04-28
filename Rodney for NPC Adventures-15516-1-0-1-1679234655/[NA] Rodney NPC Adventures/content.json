@@ -1,0 +1,61 @@
+{
+  "Format": "1.4",
+  "Changes": [
+    {
+      "Target": "Data/CompanionDispositions",
+      "FromFile": "assets/Data/CompanionDisposition.json",
+      "LogName": "Rodney's Companion Disposition"
+    },
+    {
+      "Target": "Dialogue/RodneyOBrien",
+      "FromFile": "assets/Dialogue/RodneyOBrien.json",
+      "LogName": "Rodney's Dialogue"
+    },
+    {
+      "Target": "Strings/Mail",
+      "FromFile": "assets/Strings/Mail.json",
+      "LogName": "Rodney's Mail"
+    },
+    {
+      "Target": "Data/Buffs",
+      "FromFile": "assets/Data/Buffs.json",
+      "LogName": "Rodney's Buffs"
+    },
+    {
+      "Target": "Data/AnimationDescriptions",
+      "FromFile": "assets/Data/AnimationDescriptions.json",
+      "LogName": "Rodney's Animation Descriptions"
+    },
+    {
+      "Target": "Data/IdleBehaviors",
+      "FromFile": "assets/Data/IdleBehaviors.json",
+      "LogName": "Rodney's Idle Behaviors"
+    },
+    {
+      "Target": "Data/IdleNPCDefinitions",
+      "FromFile": "assets/Data/IdleNPCDefinitions.json",
+      "LogName": "Rodney's Idle NPC Definitions"
+    },
+    {
+      "Target": "Strings/Buffs",
+      "FromFile": "assets/Strings/BuffDescriptions.json",
+      "LogName": "Rodney's Buff Descriptions"
+    },
+
+    {
+      "Target": "Strings/Weapons/RodneyOBrien",
+      "FromFile": "assets/Data/RodneyOBrienWeapons.json",
+      "LogName": "Rodney's Weapons"
+    },
+
+    {
+      "Target": "Strings/SpeechBubbles",
+      "FromFile": "assets/Strings/SpeechBubbles.json",
+      "LogName": "Rodney's Speech Bubbles"
+    },
+	{
+      "Target": "Data/Swimsuits",
+      "FromFile": "assets/Data/Swimsuits.json"
+    },
+  ]
+}

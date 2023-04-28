@@ -1,0 +1,18 @@
+{
+  "Name": "Rodney O'Brien for NPC Adventures",
+  "Author": "TheFrenchDodo",
+  "Version": "1.0.1",
+  "Description": "Take two-time award winner, author Rodney O'Brien on the adventure of a lifetime with NPC Adventures.",
+  "UniqueID": "TheFrenchDodo.RodneyOBrien.Npcadventures",
+  "MinimumApiVersion": "3.1.0",
+  "UpdateKeys": ["Nexus:15516"],
+  "ContentPackFor": {
+    "UniqueID": "purrplingcat.npcadventure",
+    "MinimumVersion": "0.13.0"
+  },
+   "Dependencies": [
+      {
+         "UniqueID": "TheFrenchDodo.RodneyOBrien"
+      },
+   ],
+}

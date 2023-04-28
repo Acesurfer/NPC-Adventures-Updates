@@ -1,0 +1,32 @@
+{
+  //Quick instructions on the below. These are speech bubbles that appear above the character's head, not dialogue, so one line is recommended.
+  //ambient are ambient dialogues in specific areas. Format is ambient_<area>_<charactername>, or ambient_<area>_<charactername>~1 if you want there to be multiple, randomized ones. I've left examples below of each.
+  //Fight dialogues are only when fighting, which is why they are randomized to the extent they are. You don't need to have as many entries as I do here, you can delete some so the pool is lower.
+  //Mostly removed the below to placeholders, but left a couple so you can see how they'd work. Also altered the keys to have RodneyOBrien so you don't have to change that part.
+  
+  
+  
+  "ambient_Forest_RodneyOBrien": "SQUIRREL!",
+  "ambient_WizardHouse_RodneyOBrien": "I wanna steal those books.",
+  "ambient_Mine_RodneyOBrien": "I think I heard something.",
+  "ambient_Mine_RodneyOBrien~1": "Look out {0}, behind you! A rock!",
+  "ambient_Mine_RodneyOBrien~2": "Don't leave without me, okay?",
+  "ambient_Mine_RodneyOBrien~3": "I think something touched my leg...",
+  "ambient_Town_RodneyOBrien": "Hey Pam! Oh no, that's a trashcan. Nevermind.",
+  "ambient_Town_RodneyOBrien~1": "East Scarp looks nicer.",
+  "ambient_Mountain_RodneyOBrien": "Wanna dive into the lake?",
+  "ambient_Beach_RodneyOBrien": "Time to lose the pants, {0}!",
+  "ambient_Desert_RodneyOBrien": "It's so hot here, why do we even wear clothes?",
+  "ambient_SeedShop_RodneyOBrien": "Pierre! One Joja Cola to go, please!",
+  "ambient_Saloon_RodneyOBrien": "Hey Gus! How are you my friend?",
+  "ambient_Saloon_RodneyOBrien~1": "Is this a date, {0}?",
+  "ambient_ArchaeologyHouse_RodneyOBrien": "Welcome to heaven.",
+  "ambient_Railroad_RodneyOBrien": "I didn't even know there was something out there.",
+  "fight_RodneyOBrien": "Think you can mess with the Rodney O'Brien?",
+  "fight_RodneyOBrien~1": "Oh no, you don't!",
+  "fight_RodneyOBrien~2": "Careful {0}, don't let them get to you!",
+  "fight_RodneyOBrien~3": "Feel my wrath, evil Voidspawn!",
+  "fight_RodneyOBrien~4": "DON'T YOU KNOW WHO I AM?!",
+  "fight_RodneyOBrien~5": "FIGHT ME!",
+
+}
