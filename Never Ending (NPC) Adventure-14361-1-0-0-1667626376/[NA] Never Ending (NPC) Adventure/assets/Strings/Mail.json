@@ -1,0 +1,3 @@
+﻿{
+  "bagItemsSentLetter.Mateo": "Morning {0},^^Here's your belongings from yesterday! I didn't take anything. But I did visit the barn to pet the animals, so that's the cost of me coming out here to drop everything off.^^ -{1}", //{0} and {1} are Farmer name and NPC name, respectively. I've changed the key, but the mail change is up to you!
+}

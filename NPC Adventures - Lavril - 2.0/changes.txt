@@ -1,0 +1,9 @@
+Hello!
+
+Due to some changes in the format, some changes have been made from the previous version.
+
+Lavril no longer provieds a luck buff while she is a companion.  This has been replaced with a 25 point max energy increase.
+
+Lavril can now be recruited at 2 hearts instead of 5.
+
+Happy Adventuring!

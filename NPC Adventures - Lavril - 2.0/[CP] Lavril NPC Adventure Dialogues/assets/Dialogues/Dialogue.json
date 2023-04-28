@@ -1,0 +1,44 @@
+{
+    "Changes": [
+      {
+        "LogName": "Companion dialogues for Lavril",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Lavril",
+        "Entries": {
+            "companionAccepted": "Umm... okay. We will try our best.$10",
+            "companionRejected": "Uh... The pretty flames are warning me not to go with you today.$13",
+            "companionRejectedNight": "No... I'm scared of the dark...$s",
+            "companionDismiss": "Oh... Okay. I wish we could have stayed with you for a bit longer...$u",
+            "companionDismissAuto": "Void says that our refrigerator is running! I have to go catch it!$5",
+            "companionRecruited": "Together forever... Tee-hee!$h",
+            "companionSuggest": "Umm... We wanted to ask you something.$u#$q -1 -1#It's okay if we stay with you, right?#$r -1 0 Yes#Sure, I'd love your help.#$r -1 0 No#I'll be fine by myself. Sorry.",
+            "companionSuggest_Yes": "Tee-hee! I'm so happy!$17",
+            "companionSuggest_No": "Oh...$6",
+            "heal": "Let all the pain go away!$11",
+            "nomedkits": "Void's skills are still on cooldown...$u",
+            "companionOnce_Farm": "Jas says that you inherited this farm from your late Grandfather.#$b#...I never had a late Grandfather before, but I think he would be proud of you.$4",
+            "companion_Farm": "I sometimes water the cherry trees back at the orchard... Does that make me a farmer too?$7",
+            "companion_Mine": "Umm... It's okay if we stay behind you, right?$13#$b#If you get hurt, Void can help take your pain away!$10",
+            "companionOnce_Forest": "Vincent told me to stay away from the sewer. There's a huge scary monster hiding down there...$13",
+            "companion_Forest": "Look, @. You won't believe what we found this time...$16#$b#It's a a leaf! But it has a hole in it! Tee-hee!$17",
+            "companion_Town": "Dusty doesn't like me for some reason... I wish he would let us pet him.$u",
+            "companion_Town_Night": "I can't find my way back in the dark... Can you please take me home on your way back?$s",
+            "companion_Town_Rainy": "Void doesn't like muddy puddles. He keeps his clothes nice and tidy.$10",
+            "companion_Saloon": "Vincent says his brother comes here to play every Friday. I wish I had an older brother.$13#$b#Well... Maybe Void could be my older brother. He feels like one, I think.$16#$b#Tee-hee!$17",
+            "companion_SeedShop": "Something about this place makes me feel warm and fuzzy... Like I'm floating away on a fluffy cloud.$8#$b#I think I see a light... I want to touch it.$14#$b#%Lavril drifts toward the Shrine of Yoba, but Void quickly drags her away.",
+            "companionRepeat_WizardHouse": "...We despise Rasmodius.$11",
+            "companion_Beach": "I love starfish.$h#$b#I hope they find their way back into the night sky someday!$h",
+            "companion_Custom_ESOrchard_Summer": "Ellie's going to teach me how to bake a cherry pie. We need to pick a lot of cherries!$16",
+            "companion_Custom_ESOrchard_Fall": "The leaves turn into such pretty colors. I'm going to put some in my scrapbook.$16",
+            "companion_Custom_ESOrchard_Winter": "Void is going to help me make a million snowmen!$h",
+            "companion_Custom_ESOrchard_Spring": "Can you help me get rid of these slimes?#$b#Ellie calls them an 'invasive species'.$7",
+            "companion_Custom_ESOrchardHouse": "I wish more guests would come. It gets a little lonely.",
+            "companion_ArchaeologyHouse": "Miss Penny is teaching me how to read...",
+            "companion_Mountain": "Hold my hand please. This wind could blow me away.",
+            "companion_Desert": "*Gasp* Look! There's a huge chocolate cake in the distance!$h#$b#Oh... Never mind, it was just a mirage.$17",
+            "companion_SkullCave": "I sense something old and creepy hiding inside. A bunch of scary flames are warning us not to go in...$13"
+        },
+      },
+    ]
+  }
+  

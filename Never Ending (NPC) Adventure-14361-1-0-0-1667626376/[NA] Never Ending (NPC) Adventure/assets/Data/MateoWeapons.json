@@ -1,0 +1,14 @@
+﻿{
+	//Define weapons here. Number indicates combat level of user, then sword is in quotes (name of). I believe custom weapons work, but it's not required.
+  "0": "Obsidian Edge",
+  "1": "Obsidian Edge",
+  "2": "Obsidian Edge",
+  "3": "Obsidian Edge",
+  "4": "Dark Sword",
+  "5": "Dark Sword",
+  "6": "Lava Katana",
+  "7": "Dwarf Sword",
+  "8": "Galaxy Sword",
+  "9": "Dragontooth Cutlass",
+  "10": "Infinity Blade"
+}

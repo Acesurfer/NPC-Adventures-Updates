@@ -1,0 +1,52 @@
+{
+  "Format": "2.0",
+  "Name": "Lavril",
+  "Skills": [
+    { "Name": "scared" },
+    { "Name": "doctor" },
+    { "Name": "fighter"}
+  ],
+  "Rules": {
+      "!f Lavril 500": "reject",
+      "f Lavril 500": "accept",
+
+      "t 630 2200": "accept"
+    
+    
+  },
+  
+  "Buffs": {
+	"Attack": 3,
+	"Speed": 1,
+	"MaxStamina": 25,
+  },
+  "BuffsDescription": "[Lavril.buffs]",
+  
+  "Weapons": {
+    "0": null 
+  },
+
+  "IdleBehaviors": [
+
+	{
+      "Behavior": "Animate",
+      "Animations": [
+        "lavril_sit",
+        "lavril_meditation",
+        "lavril_read"
+      ],
+      "Tendency": 3,
+      "MinDuration": 10,
+      "MaxDuration": 30
+    },
+
+	{
+      "Behavior": "Lookaround",
+      "FaceMinSeconds": 6,
+      "FaceMaxSeconds": 10,
+      "Tendency": 2.5,
+      "MinDuration": 10,
+      "MaxDuration": 30
+    }
+	]
+}

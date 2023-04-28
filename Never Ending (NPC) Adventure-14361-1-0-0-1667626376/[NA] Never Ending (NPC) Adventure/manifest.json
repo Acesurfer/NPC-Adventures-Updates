@@ -1,0 +1,13 @@
+{
+  "Name": "Mateo for NPC Adventures",
+  "Author": "DestyNova",
+  "Version": "1.0.1",
+  "Description": "Invite Mateo on an adventure! For PurrplingCat's NPC Adventures.",
+  "UniqueID": "Desty.Mateo.Npcadventures",
+  "MinimumApiVersion": "3.1.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "purrplingcat.npcadventure",
+    "MinimumVersion": "0.13.0"
+  }
+}

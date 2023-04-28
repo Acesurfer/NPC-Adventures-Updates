@@ -1,0 +1,11 @@
+{
+  "Name": "Lavril for NPC Adventures Dialogues",
+  "Author": "Arknir27",
+  "Version": "2.0.0",
+  "Description": "Adds Lavril to PurrplingCat's NPC Adventures.",
+  "UniqueID": "arknir.lavril.npcadventuresdialogues",
+  "UpdateKeys": [ "Nexus:11299" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

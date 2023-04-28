@@ -1,0 +1,112 @@
+ {
+//Normal Mateo Lines. I've left the dialogue as is from Juliet so you can see how it works, but essentially: 
+//Accept is if they will go with you (5+ hearts normally), reject is if not at that threshold, night is past 10pm (past midnight if spouse), dismiss is sending them away, dismissauto is their removal at 10pm/midnight, and recruited is the dialogue said directly after they become your companion. 
+//You can add _Spouse to designate lines that will be said if Mateo is the spouse.
+//Suggest is a question the NPC will pose when talking to you on occasion. I've placeholder-ed the first area so you can see how it works, then left the other two in.
+//This all works as dialogue, so expressions should be defined like dialogue is normally defined. I like to use $b to connect the dialogues, but it's not required.
+//If this is all confusing? In the same folder as this one is Ridgeside's template for this, which has zero dialogue in it. You can use that if need be, just name it Mateo.json if you want the content.json to recognize it.
+
+  "companionAccepted": "Of course I'll go with you, @. Exploring in pairs is a much safer bet than going alone.$11",
+  "companionRejected": "Sorry, @. I've got a full plate today - maybe next time, though.$4",
+  "companionRejectedNight": "It's late, @. You probably shouldn't start a mines trek this far into the day. Maybe find something else to do.$17",
+  "companionDismiss": "Haha, that was a pretty good run, @. Get home safe, alright? See you next time.$1",
+  "companionDismissAuto": "We had some pretty solid adventures today, @. But we both probably need the shut-eye. Have a good night, alright?$19",
+  "companionRecruited": "So, what are you feeling today? Skull Cave? Regular Mines? Oh, maybe we could go to Ginger Island-!$1",  
+ 
+  "companionSuggest": "Hey, @!#$q -1 -1#How about we do a little bit of dungeon delving?#$r -1 0 Yes#Sure, let's go!#$r -1 0 No#Can't right now, maybe later?",
+  "companionSuggest_Yes": "Thanks for bringing me along, @! Hope I can be of service.$1",
+  "companionSuggest_No": "Maybe next time! Be careful, if you wind up exploring alone.$10",
+  
+//Dating Mateo Lines
+  "companionAccepted_Dating": "I'm always up for going out and about with you, Sunshine.$18",
+  "companionRejected_Dating": "I'm a bit swamped with some Guild logistics, can we try another time? I'm sorry, Sunshine.$2",  
+  "companionRejectedNight_Dating": "Sunshine... It's a bit late, but I'm open to other plans.$19",
+  "companionDismiss_Dating": "I'm thankful for some time spent, Sunshine. See you soon, have a good rest of your day.$18",
+  "companionDismissAuto_Dating": "Today's been really great, but I've got to go feed Emeritus real quick or he'll burn the Guild down.$7",
+  "companionRecruited_Dating": "You and me, together for adventures. I love the sound of that.$19",
+  
+  
+  "companionSuggest_Dating": "Hey, Sunshine!#$q -1 -1#How about you and I spend some time, swords drawn?#$r -1 0 Yes#Sure, let's go!#$r -1 0 No#Can't right now, maybe later?",
+  "companionSuggest_Yes_Dating": "Excellent. Let's get going, then!$1",
+  "companionSuggest_No_Dating": "There's always next time, dear.$10",
+
+//Spouse Mateo Lines
+
+  "companionAccepted_Spouse": "I'd never say no to you, Sunshine. Let's make today something worth remembering.",
+  "companionRejected_Spouse": "%Mateo ignores you. You think to yourself that it might be better to rekindle your relationship first.",
+  "companionRejectedNight_Spouse": "It's so late...I could think of some horizontal activities we could do instead.$19",
+  "companionDismiss_Spouse": "See you at home! Give %pet extra kisses for me when you get back.$10",
+  "companionDismissAuto_Spouse": "It's bedtime... you're welcome to stay up, but don't keep me waiting too long, alright?$16",
+  "companionRecruited_Spouse": "What's on the docket for today, Sunshine?$11",
+
+  "companionSuggest_Spouse": "Hey... I'm up for a little bit of time spent, if you are.#$q -1 -1#Spend the day with me, Sunshine?#$r -1 0 Yes#Absolutely, let's go!#$r -1 0 No#Love ya, Moonbeam, but I can't today.",
+  "companionSuggest_Yes_Spouse": "Alrighty, @! Let's get going!$1",
+  "companionSuggest_No_Spouse": "Stay safe today, Sunshine.$10",
+
+//From here on, dialogues are optional. Feel free to not put in any extra dialogues if you don't want them. You can also randomize them like speech bubbles, but I've chosen not to do that for now.
+
+//Location specific (Vanilla)
+
+  "companion_Farm": "So if I told you I'd broken into your barns and coops multiple times to pet the animals, would you still consider me a friend?$7",
+  "companion_Farm_Spouse": "You know, part of me doesn't believe I deserve the life we have here.$18#$b#But hey, I'm gonna enjoy it while I have it. And I'm gonna enjoy you too, however you'll have me.",
+  "companion_Mine": "I get worried whenever people come down here. It's not that I think they're not capable - I just know it's dangerous.$17#$b#Please be careful. Always.$17",
+  "companion_Mine_Spouse": "I love you. And part of loving you is worrying about you...$17#$b#Don't ever hesitate to have me come down here with you, @. I want to be around to protect you.$18",
+  "companion_Town_Night": "I love how the town looks when it's dark out, but the lights inside are all still on...it's so...homey.$14",
+  "companion_Town_Fall": "Pumpkin season, pumpkin season, pumpkin season!1$#$b#I'm so excited. It's the best time of year! The leaves, the air, the snacks-!$11",
+  "companion_Town_Rainy": "...I love the rain... can we stay outside?$10",
+  "companion_SkullCave": "Are you sure you want to do this, @? Here... take this just in case. [349]$14",
+  "companion_SkullCave_Spouse": "Take this tonic, Sunshine. I have a few of them on me.[349]$17#$b#If anything goes sideways, run for the ladder. No excuses or exceptions. I'm saying this as the Guildmaster and as your spouse.$19",
+
+
+//Location Specific (Other mod compat). I've left in my "other mod compat" areas as examples. I don't know if Speech Bubbles actually work for this, but I know for a fact that dialogues do.
+
+"companion_Custom_EastScarpeInn": "I haven't seen Rosa in a bit. I should come here more often, play some pool.$14",
+"companion_Custom_EastScarpeInn_Spouse": "Rosa caught me running an extension cord from the Inn to the tent, once. She was not happy.$7",
+"companion_Custom_ESVetHouse": "...Eloise is one of the most brilliant children I've ever met... Jacob's raising her right.$19#$b#Anyway, can we stop and pet the llamas? Please?$12",
+"companion_Custom_CrimsonBadlands": "This is a living nightmare. Everything's corrupted, @. Let's not join the ranks of those fallen adventurers. Take this, just in case. [349]$17",
+"companion_Custom_CrimsonBadlands_Spouse": "We have too much of a life at home... I'm not sure it's worth the risk. But if you want to keep going... take this at least.[349]$17",
+"companion_Custom_ESDeepMountains": "I feel...at home, here. I can't explain why. Not only that, but I feel like someone is watching us... anyway, let's go play with the Void Goats for a little while.$17",
+"companion_Custom_Ridgeside_Ridgeside_Village": "I love being up on the mountain. I should visit here more often than just for the festivals. The view from the skycar is amazing...$10",
+"companion_Custom_Ridgeside_Ridgeside_Village_Spouse": "If I didn't know any better, I would say you came up here with me just because you wanted a private moment in the skycar.$16",
+"companion_Custom_Ridgeside_RidgeForest": "Be careful, @... I'm not well acquainted with this place, but it seems dangerous...",
+"companion_Custom_Ridgeside_RidgeForest_Spouse": "Sunshine, be careful. Take this just in case. [349]",
+"companion_Custom_Ridgeside_SummitFarm_Spouse": "How many farms do you have-? Damn, I really married up.$16",
+"companion_Custom_ESMateoHome": "Admittedly, this is not the most attractive setup for someone to see.$7",
+"companion_Custom_ESCoastalGuild": "I'm really proud of everything this represents... thank you for helping me build it. It means the world of me to have a space like this to call my own.$14",
+"companion_Custom_ESCoastalGuild_Spouse": "While we're here, let me check up on Emeritus. He's pretty solitary, considering he lives on a diet of crabs...$19",
+"companion_Custom_ESDeepDark": "It's dangerous down here, @. Haunted, even. This place has a sordid history ... Let's be very careful.$17",
+"companion_Custom_ESSeaCave": "Who's living down here?$13",
+"companion_Custom_ESEDHouse": "Soot is so soft. Let me just... sit here and play with him for a while.$12",
+"companion_Custom_ARVHouse": "Oooh, are we here to see Maximum? C'mere, boy! Who's a good boy, who's a good boy-?$12",
+"companion_Custom_ESHouse1": "Baron Munchington! My favorite monarch, where is he? C'mere, Munchie-!$12",
+"companion_Custom_Yri_House": "Oh, hang on. While we're here, I have to give Nala kisses and pets. Very important.$12",
+"companion_Custom_ExteriorMuseum": "You can't pet fish, @. That would be silly.$9",
+"companion_Custom_FishMuseum": "Alright, that goldfish behind the counter looks VERY cute. Would probably get us in trouble if I tried to pet her, though.$9",
+"companion_Custom_SVE": "PUPPY fish? Those I can pet. Right?$12",
+"companion_Custom_EnchantedGrove": "A grove?... this reminds me of I dream I had. About Hector, actually. In a similar place... but a little more sickly... I wonder if he's alright.$4",
+"companion_Custom_Highlands": "Hm... this looks like Lance's stomping grounds. Haven't seen him in... I don't even remember how long.$17#$b#I wonder how the First Slash is doing. I should catch up with that lot, considering I ran with them while I was in the Fern Islands.$19",
+"companion_Custom_CastleVillageOutpost": "I don't miss taking up watch while trying to cram for college. That was a rough time.$19",
+"companion_Custom_DesertRailway": "Just be careful, @. We're about to head straight into a sort of hellscape unlike anything you've ever seen before.$17",
+"companion_Custom_IridiumQuarry": "Holy shit, that is a LOT of Iridium.$13",
+"companion_Custom_TreasureCave": "Where there's reward, there's risk... just watch your back, @. You don't know what we're going to run into - have you ever heard of a Mimic?$19",
+
+//Doctor Lines (required for Doctor)
+//I don't know when "farmerRunAway" triggers, but it's supposed to be for if the healing gets interrupted. Just imagine the farmer is running away from Mateo trying to heal them.
+//Heal is for, you guessed it, when Mateo heals the farmer. Keys for dating/spouse included too.
+//No medkits is for when the heal is on cooldown or if Mateo is out of medkits (3 default to start).
+//They're blank except for the test dialogues I put in.
+
+	"farmerRunAway": "@, come back-!",
+	"heal": "Hey, @. Stay still. Let me get that patched up for you.$17",
+	"nomedkits": "@, be really careful. I'm out of tonics.$4",
+
+	"farmerRunAway_Dating": "Sunshine, wait-!",
+	"heal_Dating": "Just stay still, take a breath. It'll be okay, I promise.$19",
+	"nomedkits_Dating": "@, I'm out of medkits. Are you okay? Should we turn back?$5",
+
+	"farmerRunAway_Spouse": "Sunshine, wait, come back-!",
+	"heal_Spouse": "I'll be gentle, @. Stay still. I'll get you right as rain, okay?$19",
+	"nomedkits_Spouse": "Sunshine, I'm out of tonics. Maybe we should turn back, I couldn't stand anything happening to you and not being able to help.$17",
+
+
+}

@@ -1,0 +1,6 @@
+﻿{
+  //No edit required here if you don't care about any of these animations being used when not moving. If you believe one of these animations would be problematic, remove it from the list (Juliet personally only has one plus the default lookaround).
+  "Mateo_drink": "29/29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 29 30 31 32 33 33 33 33 33 33 33 32 31 30/29",
+  "Mateo_sword": "40/40 40/40",
+  "Mateo_book":"25 25 25/26 26 26 26/25 25 25",
+}
