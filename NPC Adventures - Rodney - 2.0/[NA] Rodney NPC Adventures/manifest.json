@@ -1,0 +1,18 @@
+{
+    "Name": "Lucikiel for NPC Adventures",
+    "Author": "TheFrenchDodo",
+    "Version": "2.0.0",
+    "Description": "Take two-time award winner, author Rodney O'Brien on the adventure of a lifetime with NPC Adventures.",
+    "UniqueID": "TheFrenchDodo.RodneyOBrien.Npcadventures",
+    "MinimumApiVersion": "3.18.0",
+    "UpdateKeys": [ "Nexus:15516" ],
+    "ContentPackFor": {
+      "UniqueID": "purrplingcat.npcadventure",
+      "MinimumVersion": "1.0.0-alpha"
+    },
+    "Dependencies": [
+      {
+        "UniqueID": "purrplingcat.npcadventure"
+      }
+    ]
+  }

@@ -1,0 +1,12 @@
+{
+    "Changes": [
+      {
+        "LogName": "RodneyOBrien/RodneyOBrienPack NPC Adventures Mail Data",
+        "Action": "EditData",
+        "Target": "Data/Mail",
+        "Entries": {
+                "purrplingcat.npcadventure.bagItemsSentLetter_RodneyOBrien": "My dear @Farmer,^^You forgot to take your belongings when we parted ways yesterday. I am not your baggage porter! See you around.^^ -Rodney O' Brien"
+        },      
+      },
+    ]
+  }
