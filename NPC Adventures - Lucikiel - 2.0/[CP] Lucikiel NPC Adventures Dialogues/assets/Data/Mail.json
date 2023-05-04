@@ -5,7 +5,7 @@
         "Action": "EditData",
         "Target": "Data/Mail",
         "Entries": {
-                "purrplingcat.npcadventure.bagItemsSentLetter_Lucikiel": "Yo @Farmer,^^You're making me do a lot of work. It's typical you would forget your own things. I don't want your junk, so I packed it up and sent it back to you.^Next time you leave things with me, they're going straight to the trash. But knowing Clint, he would probably dig through the bin and send it back to you. I give up...^^    - {1}"
+                "purrplingcat.npcadventure.bagItemsSentLetter_Lucikiel": "Yo @Farmer,^^You're making me do a lot of work. It's typical you would forget your own things. I don't want your junk, so I packed it up and sent it back to you.^Next time you leave things with me, they're going straight to the trash. But knowing Clint, he would probably dig through the bin and send it back to you. I give up...^^    -Lucikiel"
         },      
       },
     ]

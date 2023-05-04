@@ -5,16 +5,16 @@
     { "Name": "fighter",
       "Strength": 3,
       "DefendRadius": 10,
-      "IsWarrier": true
+      "IsWarrior": true
     }
   ],
   "Rules": {
-    "O Character": "companionAccepted_Spouse",
-    "!f Character 1250": "reject",
+    "O Lucikiel": "companionAccepted_Spouse",
+    "!f Lucikiel 1250": "reject",
     "f Lucikiel 1250": "accept"
   },
   "Buffs": {
-	"Atatck": 3,
+	"Attack": 3,
 	"Speed": 3,
 	"Defense": 3,
   },
