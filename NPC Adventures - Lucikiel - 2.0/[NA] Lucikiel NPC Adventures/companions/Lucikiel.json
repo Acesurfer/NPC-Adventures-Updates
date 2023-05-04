@@ -28,7 +28,7 @@
 	{
       "Behavior": "Animate",
       "Animations": [
-        "Lucikiel_fire",
+        "lucikiel_fire",
         "bakugo",
         "portal"
       ],
