@@ -18,7 +18,7 @@
   "Buffs": {
 	"Attack": 3,
 	"Speed": 1,
-	"MaxStamina": 25,
+	"Luck": 1,
   },
   "BuffsDescription": "[Lavril.buffs]",
   
