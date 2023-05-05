@@ -1,6 +1,3 @@
-//Welcome to the final, and arguably the worst, file. You will need every file not used from your prior NPC Adventures pack here.
-//You will need the name of your animations from AnimationDescriptions, your buffs values, your weapons descriptions, your i18n key for the buff description, and potentially your CompanionDisposition.
-//Before continuing with this file, copy it for as many characters you have. If this is your only one, continue! Remember to replace Character with the name of your NPC.
 {
   "Format": "2.0",
   "Name": "RodneyOBrien",
@@ -9,19 +6,10 @@
       "isWarrior": true
     }
   ],
+
   "Rules": {
-    //The fun part! Specify rules for recruiting the companion. Marriageable companions are recommended to have a condition that refuses them or an entire subsection of dialogue goes unused (and may be out of character).
-
-    //Otherwise, specify something here to prevent recruitment without something. The example here was 5+ hearts, but the vanilla companions are locked off via heart events instead in this version.
-	//If you don't care and want them to always be recruitable, this is where you do it.
-	
-	/* Regular */
-
-    // Requires Character to be at 5 hearts or more
-    "!f Character 1250": "reject",
-    
-    // She is recruitable anytime
-    "": "accept"
+    "!f RodneyOBrien 1250": "reject",
+    "f RodneyOBrien 1250": "accept"
   },
   
   "Buffs": {
@@ -29,6 +17,7 @@
 	"Speed": 2,
 	"MaxStamina": 75,
   },
+
   "BuffsDescription": "[RodneyOBrien.buffs]",
   
   
@@ -41,6 +30,7 @@
     "9": "Lava Katana",
     "10": "Dragontooth Cutlass"
   },
+  
   "IdleBehaviors": [
 	{
       "Behavior": "Animate",
