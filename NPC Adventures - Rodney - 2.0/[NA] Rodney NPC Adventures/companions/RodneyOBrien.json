@@ -13,9 +13,10 @@
   },
   
   "Buffs": {
+  "Luck": 2,
 	"Attack": 2,
 	"Speed": 2,
-	"MaxStamina": 75,
+	"MaxStamina": 50,
   },
 
   "BuffsDescription": "[RodneyOBrien.buffs]",

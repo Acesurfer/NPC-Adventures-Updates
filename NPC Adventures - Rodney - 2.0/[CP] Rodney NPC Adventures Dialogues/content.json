@@ -17,6 +17,11 @@
         "LogName": "RodneyOBrian's Mail"
       },
       {
+        "Action": "Include",
+        "FromFile": "assets/Data/Animations.json",
+        "LogName": "RodneyOBrien's Animations"
+      },
+      {
         "LogName": "RodneyOBrian Translations",
         "Action": "Include",
         "FromFile": "Locale/{{language}}/content.json",
