@@ -55,6 +55,7 @@
       "8": "Neptune's Glaive",
       "9": "Ossified Blade"
     },
+    
     "IdleBehaviors": [
       {
         "Behavior": "Animate",
