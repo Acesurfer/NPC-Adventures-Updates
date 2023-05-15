@@ -1,3 +1,0 @@
-{
-	"Mateo": "You feel inspired by the experienced dungeon delver.#You gain +2 Speed, +2 Mining, +2 Luck, +2 Attack and +3 Defense." //Modify this to Mateo's buff description. I've left in Juliet's as the example, but changed the key so it will properly use whatever change.
-}

@@ -1,4 +1,0 @@
-{
-  //Honestly, don't change anything in here. Just in case: recruitable part is required, fighter doctor is the two professions, you can technically add more. // is needed, then 5 hearts required, price to recruit (no other companion I know has a price) and then keep the 0 since weaponry is defined elsewhere.
-  "Mateo": "recruitable/fighter doctor//5/0/0"
-}

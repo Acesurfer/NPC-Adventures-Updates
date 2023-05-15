@@ -1,5 +1,0 @@
-﻿{
-  //I forget what the numbers do. I just used it as a base here. As long as the mod does not crash, it should be usable as is.
-  //If not, I'll experiment, or I'll send it to you to make sense of with https://www.npcadventures.dev/docs/modding/idle as the link needed to understand the numbers.
-  "Mateo": "Mateo_animate Mateo_lookaround/5 2/10 30"
-}
